@@ -1,4 +1,10 @@
 {
+  "source": "src/index.html",
+  "browserslist": "defaults, not IE > 0",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.8.3",
     "prettier": "^2.8.7"
