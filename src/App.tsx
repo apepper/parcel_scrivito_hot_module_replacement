@@ -1,3 +1,13 @@
+import * as Scrivito from 'scrivito'
+import './Objs'
+import './Widgets'
+
 export function App() {
-  return <h1>Hello world from react!</h1>
+  return (
+    <div className="app">
+      <div id="mainContent">
+        <Scrivito.CurrentPage />
+      </div>
+    </div>
+  )
 }
