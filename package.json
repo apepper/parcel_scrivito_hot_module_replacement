@@ -3,12 +3,16 @@
   "browserslist": "defaults, not IE > 0",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "check-types": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
     "parcel": "^2.8.3",
     "prettier": "^2.8.7",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "react": "^18.2.0",
